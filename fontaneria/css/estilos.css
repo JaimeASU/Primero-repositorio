@@ -1,0 +1,48 @@
+:root{
+  --primario:#2070C8;
+  --secundario:#6DA7CC;
+}
+.contenedor{
+  max-width:1200px;
+  margin:0 auto;
+}
+h2{
+  color:var(--primario);
+}
+
+
+/*Header*/
+header .nav nav{
+  background-color:black;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  padding:18px;
+}
+header .nav nav a{
+  color:white;
+  text-decoration:none;
+  margin:0px 20px;
+  font-size:20px;
+}
+header .nav nav a:hover{
+  text-decoration:none;
+}
+main .infop{
+  margin-top:100px;
+  width:75%;
+}
+main .fugas-loc{
+  margin-top:100px;
+}
+main .fugas-loc .fugas{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.fugas-loc .fugas div.info{
+  flex-basis:60%;
+}
+.fugas-loc .fugas div.imagen{
+  flex-basis:40%;
+}
